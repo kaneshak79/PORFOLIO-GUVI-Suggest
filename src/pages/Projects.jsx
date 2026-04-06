@@ -3,34 +3,42 @@
 
 import React from "react";
 import { Github, ExternalLink } from "lucide-react";
+import luxora from "../assets/projects/luxora.png";
+import pingly from "../assets/projects/pingly.png";
+import movie from "../assets/projects/movie.png";
 
 const projects = [
   {
-    title: "MERN Task Manager",
+    title: "Luxora — MERN E-commerce Platform",
     description:
-      "A full stack task management application with drag & drop, authentication, and real-time state updates.",
+      "A full-stack e-commerce web application built with the MERN stack, featuring secure authentication, product management, cart system, and seamless user experience.",
     tech: ["React", "Node", "Express", "MongoDB", "Tailwind"],
-    github: "https://github.com/yourprofile/taskmanager",
-    live: "https://your-live-link.com",
-    image: "/projects/taskmanager.png",
+    github: "https://github.com/kaneshak79/Ecommerce-Mern-Frontend",
+    live: "https://ecommerce-mern-frontend-7urw.vercel.app/",
+    image: luxora,
   },
   {
-    title: "AI Resume Analyzer",
+    title: "Pingly — Real-Time Chat Application | MERN Stack",
     description:
-      "AI-powered resume screening tool that analyzes resumes and provides skill-based insights.",
-    tech: ["React", "Python", "AI", "Flask"],
-    github: "https://github.com/yourprofile/resume-analyzer",
-    live: "https://your-live-link.com",
-    image: "/projects/resume.png",
+      "A full-stack chat application with real-time messaging, group chats, status (stories), and audio/video call support.",
+
+    tech: ["React", 
+"Node",
+"Express", 
+"MongoDB", 
+"Socket.IO" ],
+    github: "https://github.com/kaneshak79/ChatApp_Mern_Frontend",
+    live: "https://chat-app-mern-frontend-nine.vercel.app/",
+    image: pingly,
   },
   {
-    title: "E-Commerce Platform",
+    title: "Movies Search App",
     description:
-      "Full-featured e-commerce application with authentication, payments, cart system and admin dashboard.",
-    tech: ["React", "Node", "MySQL", "Bootstrap"],
-    github: "https://github.com/yourprofile/ecommerce",
-    live: "https://your-live-link.com",
-    image: "/projects/ecommerce.png",
+      "A React.js application that allows users to search movies and view details of movies in a clean and responsive interface.",
+    tech: ["React","Tailwindcss"],
+    github: "https://github.com/kaneshak79/movie-app",
+    live: "https://movie-app-gnp6.vercel.app/",
+    image: movie,
   },
 ];
 
