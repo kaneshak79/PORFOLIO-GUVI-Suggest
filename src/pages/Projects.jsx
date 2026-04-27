@@ -174,7 +174,7 @@ import intervexaAI from "../assets/projects/intervexaAI.png";
 
 const projects = [
   {
-    title: "AI Interview Preparation MERN App",
+    title: "IntervexaAI - AI Interview Preparation MERN App",
     description:
       "A full-stack MERN application that helps users prepare for interviews using AI-generated questions, real-time answer practice, and performance tracking in a clean and responsive interface.",
     tech: [
