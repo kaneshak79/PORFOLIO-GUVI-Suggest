@@ -6,17 +6,23 @@ import { Github, ExternalLink } from "lucide-react";
 import luxora from "../assets/projects/luxora.png";
 import pingly from "../assets/projects/pingly.png";
 import movie from "../assets/projects/movie.png";
-
+import intervexaAI from "../assets/projects/intervexaAI.png";
 const projects = [
-  {
-    title: "Luxora — MERN E-commerce Platform",
-    description:
-      "A full-stack e-commerce web application built with the MERN stack, featuring secure authentication, product management, cart system, and seamless user experience.",
-    tech: ["React", "Node", "Express", "MongoDB", "Tailwind"],
-    github: "https://github.com/kaneshak79/Ecommerce-Mern-Frontend",
-    live: "https://ecommerce-mern-frontend-7urw.vercel.app/",
-    image: luxora,
+
+   {
+    // title: "Movies Search App",
+    // description:
+    //   "A React.js application that allows users to search movies and view details of movies in a clean and responsive interface.",
+    // tech: ["React","Tailwindcss"],
+    title: "AI Interview Preparation MERN App",
+description:
+  "A full-stack MERN application that helps users prepare for interviews using AI-generated questions, real-time answer practice, and performance tracking in a clean and responsive interface.",
+tech: ["React", "TailwindCSS", "Node.js", "Express", "MongoDB","Razorpay","Groq API","Brevo API"],
+    github: "https://github.com/kaneshak79/AI-Interview-preparation-MERN-Frontend",
+    live: "https://ai-interview-preparation-mern-front.vercel.app/",
+    image: intervexaAI,
   },
+  
   {
     title: "Pingly — Real-Time Chat Application | MERN Stack",
     description:
@@ -32,14 +38,15 @@ const projects = [
     image: pingly,
   },
   {
-    title: "Movies Search App",
+    title: "Luxora — MERN E-commerce Platform",
     description:
-      "A React.js application that allows users to search movies and view details of movies in a clean and responsive interface.",
-    tech: ["React","Tailwindcss"],
-    github: "https://github.com/kaneshak79/movie-app",
-    live: "https://movie-app-gnp6.vercel.app/",
-    image: movie,
+      "A full-stack e-commerce web application built with the MERN stack, featuring secure authentication, product management, cart system, and seamless user experience.",
+    tech: ["React", "Node", "Express", "MongoDB", "Tailwind","Razorpay"],
+    github: "https://github.com/kaneshak79/Ecommerce-Mern-Frontend",
+    live: "https://ecommerce-mern-frontend-7urw.vercel.app/",
+    image: luxora,
   },
+ 
 ];
 
 const Projects = () => {
